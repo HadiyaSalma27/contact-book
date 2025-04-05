@@ -90,7 +90,7 @@ class _ContactBookHomeState extends State<ContactBookHome> {
                 decoration: InputDecoration(
                   labelText: 'Name',
                   filled: true,
-                  fillColor: Colors.white.withOpacity(0.8),
+                  fillColor: Colors.white.withValues(alpha: 0.8),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -102,7 +102,7 @@ class _ContactBookHomeState extends State<ContactBookHome> {
                 decoration: InputDecoration(
                   labelText: 'Phone',
                   filled: true,
-                  fillColor: Colors.white.withOpacity(0.8),
+                  fillColor: Colors.white.withValues(alpha: 0.8),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
